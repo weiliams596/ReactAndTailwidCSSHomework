@@ -55,6 +55,8 @@ import Homework6_4 from './Week31/D4_W31_HW/Homework/Homework';
 
 import Homework7_1 from './Week32/D4_W32_HW/Homework/Homework';
 
+import Homework8_1 from './Week33/D1_W33_HW/Homework/Homework';
+
 const routes = [
     {
         week: 26,
@@ -220,6 +222,16 @@ const routes = [
                 id:20,
                 name:'Use useReducer make Work list',
                 path:'/HW20',
+                component:Homework7_1
+            }
+        ]
+    },{
+        week:34,
+        homework:[
+            {
+                id:21,
+                name:'Use framework Tailwind CSS with React',
+                path:'/HW21',
                 component:Homework7_1
             }
         ]
