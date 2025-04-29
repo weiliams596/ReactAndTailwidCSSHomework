@@ -1,0 +1,58 @@
+{
+    "tickets": [
+        {
+            "id": 1,
+            "from": "Almaty",
+            "to": "Astana",
+            "price": 25000,
+            "time": "10:00",
+            "airline": "Air Astana",
+            "seats": 50
+        },
+        {
+            "id": 2,
+            "from": "Astana",
+            "to": "Almaty",
+            "price": 30000,
+            "time": "12:00",
+            "airline": "Air Almaty",
+            "seats": 70
+        },
+        {
+            "id": 3,
+            "from": "Almaty",
+            "to": "Astana",
+            "price": 28000,
+            "time": "14:00",
+            "airline": "Air Astana",
+            "seats": 60
+        },
+        {
+            "id": 4,
+            "from": "Astana",
+            "to": "Almaty",
+            "price": 32000,
+            "time": "16:00",
+            "airline": "Air Almaty",
+            "seats": 80
+        },
+        {
+            "id": 5,
+            "from": "Almaty",
+            "to": "Astana",
+            "price": 27000,
+            "time": "18:00",
+            "airline": "Air Astana",
+            "seats": 75
+        },
+        {
+            "id": 6,
+            "from": "Astana",
+            "to": "Almaty",
+            "price": 31000,
+            "time": "20:00",
+            "airline": "Air Almaty",
+            "seats": 90
+        }
+    ]
+}

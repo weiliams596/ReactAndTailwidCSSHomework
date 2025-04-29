@@ -1,0 +1,26 @@
+.searcher-div{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 50px;
+}
+
+.searcher-div input,
+.searcher-div button{
+    position: absolute;
+}
+
+.searcher-div input{
+    height: 50px;
+    width: 100%;
+    border-radius:  25px;
+    padding:10px;
+}
+
+.searcher-div button{
+    right: 1%;
+    bottom:5px;
+    border-radius: 25px;
+    background-color: aqua;
+    color:black;
+}

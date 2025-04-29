@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+#error{
+    color: red;
+}

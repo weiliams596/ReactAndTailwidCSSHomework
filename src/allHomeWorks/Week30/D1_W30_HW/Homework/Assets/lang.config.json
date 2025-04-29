@@ -1,0 +1,22 @@
+{
+    "en":{
+        "title":"This is the English version of the website",
+        "nex_title":"This is Main component",
+        "description":"Mission starts at midnight"
+    },
+    "kk":{
+        "title":"Бұл веб-сайттың Қазақ тіліндегі нұсқасы",
+        "nex_title":"Басты бет",
+        "description":"Миссия 00:00-ында бастаулады"
+    },
+    "ru":{
+        "title":"Это русская версия веб-сайта",
+        "nex_title":"Это главный компонент",
+        "description":"Миссия начинается в полночь"
+    },
+    "zh_cn":{
+        "title":"这是中文版的网站",
+        "nex_title":"这是主组件",
+        "description":"使命从午夜开始"
+    }
+}

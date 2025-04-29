@@ -1,0 +1,55 @@
+.flight-list {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.flight-item {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.submit-form {
+    align-items: center;
+    margin-top: 50px;
+}
+
+.shower-div {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.shower-div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.shower-div .left {
+    font-size: 2.5rem;
+}
+
+@media (prefers-color-scheme: light) {
+    .flight-item {
+        border: 2px solid black;
+    }
+}
