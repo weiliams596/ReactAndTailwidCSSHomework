@@ -2,10 +2,12 @@
   "name": "react-homework2",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/weiliams596/ReactShower",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy":"gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -13,6 +15,7 @@
     "@tailwindcss/vite": "^4.1.4",
     "axios": "^1.9.0",
     "bootstrap-icons": "^1.11.3",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.2",

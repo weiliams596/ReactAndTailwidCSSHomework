@@ -57,6 +57,8 @@ import Homework7_1 from './Week32/D4_W32_HW/Homework/Homework';
 
 import Homework8_1 from './Week33/D1_W33_HW/Homework/Homework';
 
+import Homework8_2 from './Week33/D2_W33_HW/Homework/Homework';
+
 const routes = [
     {
         week: 26,
@@ -160,79 +162,74 @@ const routes = [
                     { id: 12001, path: '/HW12/register', component: HW4_2Child1 },
                     { id: 12002, path: '/HW12/login', component: HW4_2Child2 }
                 ]
-            },{
-                id:13,
-                name:'Movie Search App',
-                path:'/HW13',
-                component:Homework4_4,
-                chilldren:[
-                    {id:13001,path:'/HW13/Details/:id',component:HW4_4Child1}
+            }, {
+                id: 13,
+                name: 'Movie Search App',
+                path: '/HW13',
+                component: Homework4_4,
+                chilldren: [
+                    { id: 13001, path: '/HW13/Details/:id', component: HW4_4Child1 }
                 ]
             }
         ]
-    },{
-        week:30,
-        homework:[
+    }, {
+        week: 30,
+        homework: [
             {
-                id:14,
-                name:'Global useContext',
-                path:'/HW14',
-                component:Homework5_1
+                id: 14,
+                name: 'Global useContext',
+                path: '/HW14',
+                component: Homework5_1
             }
         ]
-    },{
-        week:31,
-        homework:[
+    }, {
+        week: 31,
+        homework: [
             {
-                id:15,
-                name:'Change Color with useReducer',
-                path:'/HW15',
-                component:Homework6_1
+                id: 15,
+                name: 'Change Color with useReducer',
+                path: '/HW15',
+                component: Homework6_1
+            }, {
+                id: 16,
+                name: 'Localstorage with useReducer',
+                path: '/HW16',
+                component: Homework6_2
+            }, {
+                id: 17,
+                name: 'Use useReducer',
+                path: '/HW17',
+                component: Homework6_3
+            }, {
+                id: 18,
+                name: 'Use useReducer make Work list',
+                path: '/HW18',
+                component: Homework6_4
+            }
+        ]
+    }, {
+        week: 32,
+        homework: [
+            {
+                id: 19,
+                name: 'Use useReducer make Work list',
+                path: '/HW19',
+                component: Homework8_1
             },{
-                id:16,
-                name:'Localstorage with useReducer',
-                path:'/HW16',
-                component:Homework6_2
-            },{
-                id:17,
-                name:'Use useReducer',
-                path:'/HW17',
-                component:Homework6_3
-            },{
-                id:18,
-                name:'Use useReducer make Work list',
-                path:'/HW18',
-                component:Homework6_4
+                id: 20,
+                name: 'Use useReducer make Work list',
+                path: '/HW20',
+                component: Homework8_2
             }
         ]
-    },{
-        week:32,
-        homework:[
+    }, {
+        week: 33,
+        homework: [
             {
-                id:19,
-                name:'Use useReducer make Work list',
-                path:'/HW19',
-                component:Homework7_1
-            }
-        ]
-    },{
-        week:33,
-        homework:[
-            {
-                id:20,
-                name:'Use useReducer make Work list',
-                path:'/HW20',
-                component:Homework7_1
-            }
-        ]
-    },{
-        week:34,
-        homework:[
-            {
-                id:21,
-                name:'Use framework Tailwind CSS with React',
-                path:'/HW21',
-                component:Homework7_1
+                id: 21,
+                name: 'Use framework Tailwind CSS with React',
+                path: '/HW21',
+                component: Homework7_1
             }
         ]
     }

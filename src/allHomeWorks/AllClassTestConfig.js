@@ -59,6 +59,7 @@ import ClassTest7_1 from './Week32/D2_W32_HW/ClassTest/ClassTest'
 import ClassTest7_2 from './Week32/D3_W32_HW/ClassTest/ClassTest';
 
 import ClassTest8_1 from './Week33/D1_W33_HW/ClassTest/ClassTest';
+import ClassTest8_2 from './Week33/D2_W33_HW/ClassTest/ClassTest';
 
 const routes = [
     {
@@ -270,6 +271,11 @@ const routes = [
                 name: "Tailwind exercise",
                 path: '/CT24',
                 component: ClassTest8_1
+            },{
+                id: 225,
+                name: "Tailwind exercise 2",
+                path: '/CT25',
+                component: ClassTest8_2
             }
         ]
     }
