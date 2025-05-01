@@ -60,6 +60,7 @@ import ClassTest7_2 from './Week32/D3_W32_HW/ClassTest/ClassTest';
 
 import ClassTest8_1 from './Week33/D1_W33_HW/ClassTest/ClassTest';
 import ClassTest8_2 from './Week33/D2_W33_HW/ClassTest/ClassTest';
+import ClassTest8_3 from './Week33/D3_W33_HW/ClassTest/ClassTest';
 
 const routes = [
     {
@@ -276,6 +277,11 @@ const routes = [
                 name: "Tailwind exercise 2",
                 path: '/CT25',
                 component: ClassTest8_2
+            },{
+                id: 226,
+                path: '/CT26',
+                name: "Gemini AI exercise",
+                component: ClassTest8_3
             }
         ]
     }

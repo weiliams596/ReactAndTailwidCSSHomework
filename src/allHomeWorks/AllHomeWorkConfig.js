@@ -59,6 +59,8 @@ import Homework8_1 from './Week33/D1_W33_HW/Homework/Homework';
 
 import Homework8_2 from './Week33/D2_W33_HW/Homework/Homework';
 
+import Homework8_3 from './Week33/D3_W33_HW/Homework/Homework';
+
 const routes = [
     {
         week: 26,
@@ -214,22 +216,27 @@ const routes = [
                 id: 19,
                 name: 'Use useReducer make Work list',
                 path: '/HW19',
-                component: Homework8_1
-            },{
-                id: 20,
-                name: 'Use useReducer make Work list',
-                path: '/HW20',
-                component: Homework8_2
+                component: Homework7_1
             }
         ]
     }, {
         week: 33,
         homework: [
             {
-                id: 21,
+                id: 20,
                 name: 'Use framework Tailwind CSS with React',
+                path: '/HW20',
+                component: Homework8_1
+            },{
+                id: 21,
+                name: 'Use useReducer make Work list',
                 path: '/HW21',
-                component: Homework7_1
+                component: Homework8_2
+            },{
+                id: 22,
+                name: 'Use GPT AI with React',
+                path: '/HW22',
+                component: Homework8_3
             }
         ]
     }
