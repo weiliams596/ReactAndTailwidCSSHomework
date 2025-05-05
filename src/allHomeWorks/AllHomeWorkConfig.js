@@ -61,6 +61,8 @@ import Homework8_2 from './Week33/D2_W33_HW/Homework/Homework';
 
 import Homework8_3 from './Week33/D3_W33_HW/Homework/Homework';
 
+import Homework8_4 from './Week33/D4_W33_HW/Homework/Homework';
+
 const routes = [
     {
         week: 26,
@@ -237,6 +239,11 @@ const routes = [
                 name: 'Use GPT AI with React',
                 path: '/HW22',
                 component: Homework8_3
+            },{
+                id:23,
+                name:"Use Gemini Protocol with React",
+                path:"/HW23",
+                component:Homework8_4                
             }
         ]
     }
