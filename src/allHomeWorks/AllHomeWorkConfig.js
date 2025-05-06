@@ -63,6 +63,10 @@ import Homework8_3 from './Week33/D3_W33_HW/Homework/Homework';
 
 import Homework8_4 from './Week33/D4_W33_HW/Homework/Homework';
 
+import HomeWork9_1 from './Week34/D2_W33_HW/Homework/Homework';
+import HW9_1Child1 from './Week34/D2_W33_HW/Homework/Pages/LifeTest';
+import HW9_1Child2 from './Week34/D2_W33_HW/Homework/Pages/DataPage';
+
 const routes = [
     {
         week: 26,
@@ -246,6 +250,18 @@ const routes = [
                 component:Homework8_4                
             }
         ]
+    },{
+        week:34,
+        homework:[{
+            id:24,
+            name:"React component lifecycle",
+            path:"/HW24/",
+            component:HomeWork9_1,
+            chilldren:[
+                {id:24001,path:"/HW24/timer",component:HW9_1Child1},
+                {id:24002,path:"/HW24/data",component:HW9_1Child2}
+            ]
+            }]
     }
 ];
 

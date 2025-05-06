@@ -63,6 +63,8 @@ import ClassTest8_2 from './Week33/D2_W33_HW/ClassTest/ClassTest';
 import ClassTest8_3 from './Week33/D3_W33_HW/ClassTest/ClassTest';
 import ClassTesst8_4 from './Week33/D4_W33_HW/ClassTest/ClassTest';
 
+import ClassTest9_1 from './Week34/D2_W33_HW/ClassTest/ClassTest';
+
 const routes = [
     {
         week: 26,
@@ -288,6 +290,16 @@ const routes = [
                 path: '/CT27',
                 name: "Gemini AI exercise 2",
                 component: ClassTesst8_4
+            }
+        ]
+    },{
+        week: 34,
+        classtest: [
+            {
+                id: 228,
+                name: "React-Bootstrap exercise",
+                path: '/CT28',
+                component: ClassTest9_1
             }
         ]
     }
