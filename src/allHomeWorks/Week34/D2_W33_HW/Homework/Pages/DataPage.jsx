@@ -7,8 +7,8 @@ export default function DataPage() {
   const [error, setError] = useState(null);
 
   const fetchData = async () => {
+    setLoading(true);
     try {
-      setLoading(true);
       const response = await axios.get(
         "https://jsonplaceholder.typicode.com/posts/1&#39"
       );
@@ -16,7 +16,7 @@ export default function DataPage() {
         setData(response.data);
       }
     } catch (err) {
-        console.error(err.message);
+      console.error(err.message);
       setError("Қате");
     } finally {
       setLoading(false);
@@ -28,7 +28,7 @@ export default function DataPage() {
       fetchData();
     }, 5000);
     return () => {
-        clearInterval(timer);
+      clearInterval(timer);
     };
   }, []);
   return (
@@ -37,8 +37,8 @@ export default function DataPage() {
       <p className="text-red-500">{error}</p>
       {data && (
         <div>
-            <h1>{data.title}</h1>
-            <p>{data.body}</p>
+          <h1>{data.title}</h1>
+          <p>{data.body}</p>
         </div>
       )}
     </div>

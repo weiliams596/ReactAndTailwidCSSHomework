@@ -67,6 +67,8 @@ import HomeWork9_1 from './Week34/D2_W33_HW/Homework/Homework';
 import HW9_1Child1 from './Week34/D2_W33_HW/Homework/Pages/LifeTest';
 import HW9_1Child2 from './Week34/D2_W33_HW/Homework/Pages/DataPage';
 
+import Homework9_2 from './Week34/D3_W33_HW/Homework/Homework';
+
 const routes = [
     {
         week: 26,
@@ -233,35 +235,42 @@ const routes = [
                 name: 'Use framework Tailwind CSS with React',
                 path: '/HW20',
                 component: Homework8_1
-            },{
+            }, {
                 id: 21,
                 name: 'Use useReducer make Work list',
                 path: '/HW21',
                 component: Homework8_2
-            },{
+            }, {
                 id: 22,
                 name: 'Use GPT AI with React',
                 path: '/HW22',
                 component: Homework8_3
-            },{
-                id:23,
-                name:"Use Gemini Protocol with React",
-                path:"/HW23",
-                component:Homework8_4                
+            }, {
+                id: 23,
+                name: "Use Gemini Protocol with React",
+                path: "/HW23",
+                component: Homework8_4
             }
         ]
-    },{
-        week:34,
-        homework:[{
-            id:24,
-            name:"React component lifecycle",
-            path:"/HW24/",
-            component:HomeWork9_1,
-            chilldren:[
-                {id:24001,path:"/HW24/timer",component:HW9_1Child1},
-                {id:24002,path:"/HW24/data",component:HW9_1Child2}
+    }, {
+        week: 34,
+        homework: [{
+            id: 24,
+            name: "React component lifecycle",
+            path: "/HW24/",
+            component: HomeWork9_1,
+            chilldren: [
+                { id: 24001, path: "/HW24/timer", component: HW9_1Child1 },
+                { id: 24002, path: "/HW24/data", component: HW9_1Child2 }
             ]
-            }]
+        }, {
+            id: 25,
+            name: "React component lifecycle depth",
+            path: "/HW25/",
+            component: Homework9_2,
+
+        }
+        ]
     }
 ];
 

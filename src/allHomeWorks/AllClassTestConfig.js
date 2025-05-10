@@ -65,6 +65,8 @@ import ClassTesst8_4 from './Week33/D4_W33_HW/ClassTest/ClassTest';
 
 import ClassTest9_1 from './Week34/D2_W33_HW/ClassTest/ClassTest';
 
+import ClassTest9_2 from './Week34/D3_W33_HW/ClassTest/ClassTest';
+
 const routes = [
     {
         week: 26,
@@ -297,9 +299,14 @@ const routes = [
         classtest: [
             {
                 id: 228,
-                name: "React-Bootstrap exercise",
+                name: "React lifecyle exercise",
                 path: '/CT28',
                 component: ClassTest9_1
+            },{
+                id:229,
+                name: "React lifecyle dependency exercise",
+                path: '/CT29',
+                component: ClassTest9_2
             }
         ]
     }
