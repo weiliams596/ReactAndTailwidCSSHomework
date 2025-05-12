@@ -1,7 +1,7 @@
 // Week 26
 import ClassTest1_1 from './Week26/D1_W26_HW/ClassTest/ClassTest';
 import ClassTest1_2 from './Week26/D2_W26_HW/ClassTest/ClassTest';
-import ClassTest1_3 from './Week26/D3_W26_HW/ClassTest/ClassTest';
+import ClassTest1_3 from './Week26/D3_W26_HW/Classtest/ClassTest';
 import ClassTest1_4 from './Week26/D4_W26_HW/ClassTest/ClassTest';
 
 // Week 27
